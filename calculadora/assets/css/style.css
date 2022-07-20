@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+:root {
+    --primary-color:  rgb(67, 183, 236);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Koulen', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10PX;
+}
+
+form input {
+    font-size: 24px;
+    height: 35px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+button {
+    border: none;
+    background: black;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+}
+
+
